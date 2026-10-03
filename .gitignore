@@ -1,0 +1,21 @@
+# 金鑰：絕對不要提交
+secrets.env
+.env
+.env.*
+*.key
+*.pem
+
+# 執行產物與個人紀錄
+__pycache__/
+*.pyc
+*.backup.*
+*.bak-*
+*.bak
+.ds_last_job.json
+bench/runs/
+bench/e2e_runs/
+bench/history.jsonl
+bench/history_claude.jsonl
+
+# 打包產物
+*.zip
